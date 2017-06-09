@@ -1,0 +1,54 @@
+
+
+<html><head>
+	
+<style>
+body{
+font-family: ‘Segoe UI’;
+font-size: 12pt;
+}
+
+header h1{
+font-size:12pt;
+color: #fff;
+background-color: #1BA1E2;
+padding: 20px;
+
+}
+article
+{
+width: 80%;
+margin:auto;
+margin-top:10px;
+}
+
+.thumbnail{
+
+height: 100px;
+margin: 10px;
+float: left;
+}
+#clear{
+display:none;
+}
+#result {
+border: 4px dotted #cccccc;
+display: none;
+float: right;
+margin:0 auto;
+width: 511px;
+}
+
+</style>
+
+
+</head>
+<body>
+<article>
+<input style="display:none;" class="uploader" accept="image/*"  type="file" name="images[]" />
+ <input id="src" type="file" name="files[]"   multiple="multiple" required/>
+<div class="previewimg">//here preview images will be append
+</article>
+     <script src="upload_imagev2.js" type="text/javascript"></script> 
+</body>
+<html>
